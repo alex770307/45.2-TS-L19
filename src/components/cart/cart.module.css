@@ -1,0 +1,15 @@
+.cartContainer {
+    margin-bottom: 15px;
+  }
+  
+  .cartList {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 10px;
+  }
+  
+  .cartList > div {
+    margin-bottom: 5px;
+  }
+  

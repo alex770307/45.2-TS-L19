@@ -1,0 +1,65 @@
+/* .foxWrapper {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border: 4px dashed orange;
+    margin-bottom: 15px;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+  } */
+  
+  /* .foxWrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+  } */
+
+  .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f8ff; /* Светлый фон */
+  font-family: 'Arial', sans-serif;
+}
+
+h4 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.foxWrapper {
+  margin: 20px 0;
+  border: 2px dashed #2c3e50; /* Обводка вокруг изображения */
+  border-radius: 10px; /* Закругленные углы */
+  overflow: hidden; /* Скрыть переполнение */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+.foxWrapper img {
+  width: 300px; /* Адаптивная ширина */
+  height: auto; /* Автоматическая высота */
+  display: block; /* Убираем пробелы под изображением */
+}
+
+.button {
+  background-color: #3498db; /* Цвет кнопки */
+  color: white; /* Цвет текста кнопки */
+  border: none; /* Убираем обводку */
+  border-radius: 5px; /* Закругленные углы */
+  padding: 10px 20px; /* Отступы */
+  cursor: pointer; /* Курсор при наведении */
+  transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+.button:hover {
+  background-color: #2980b9; /* Цвет кнопки при наведении */
+}

@@ -1,0 +1,19 @@
+.counter {
+    margin-top: 6px  ;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.counter > span {
+    margin: 0 8px;
+}
+
+.color-buttons {
+    margin-top: 10px;
+}
+
+
+.color-buttons  > button:hover {
+    background-color: wheat; 
+}
+

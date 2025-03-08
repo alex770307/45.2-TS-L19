@@ -1,0 +1,29 @@
+.profileCard {
+  width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.profileImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  margin-bottom: 10px;
+}
+
+.profileName {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.profileHobby {
+  font-size: 16px;
+  color: #666;
+}

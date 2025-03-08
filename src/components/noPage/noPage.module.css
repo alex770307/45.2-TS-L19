@@ -1,0 +1,14 @@
+.noPage {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 30px;
+  }
+  
+  .noPage h3 {
+    margin-bottom: 0;
+  }
+  
+  .noPage a:hover {
+    text-decoration: underline;
+  }

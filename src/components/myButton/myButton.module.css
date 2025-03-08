@@ -1,0 +1,25 @@
+.myButton {
+  margin: 3px 20px;
+}
+
+.primary {
+  background-color: #1c72d4;
+}
+
+.danger {
+  background-color: #d3691d;
+}
+
+.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: rgb(124, 124, 124);
+}
+
+.primary:hover {
+  background-color: #7599c3;
+}
+
+.danger:hover {
+  background-color: #fc9b56;
+}

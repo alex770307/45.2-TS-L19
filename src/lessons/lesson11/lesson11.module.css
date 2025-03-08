@@ -1,0 +1,21 @@
+.container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.factContainer {
+    margin-bottom: 10px;
+}
+
+.fact {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.catImage {
+    max-width: 25%; 
+    height: auto; 
+    border-radius: 4px; 
+    margin-top: 10px;
+}

@@ -1,0 +1,28 @@
+.container {
+  max-width: 400px;
+  margin: 50px 200px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+.description {
+  font-size: 16px; 
+  margin-bottom: 20px; 
+}
+
+.image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.backButtonContainer {
+  text-align: center;
+}

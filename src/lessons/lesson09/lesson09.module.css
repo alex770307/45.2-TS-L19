@@ -1,0 +1,20 @@
+.heading {
+    font-size: 35px;
+    color: rgb(27, 138, 229);
+  }
+  
+  .desc {
+    font-style: italic;
+  }
+  
+  .textGreen {
+    color: rgb(137, 255, 47);
+  }
+  
+  .list {
+    list-style: none;
+  }
+  
+  .list > li::before {
+    content: '⚡️ ';
+  }
