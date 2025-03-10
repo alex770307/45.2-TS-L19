@@ -202,8 +202,6 @@ import Cart from '../cart/Cart';
 import { useFavorites } from '../../favoritesContext/FavoritesContext';
 import { useAppDispatch, useAppSelector } from '../../app/hooks';
 import { loadProducts, loadLimitedProducts } from '../../features/products/productsAction';
-// import { loadLimitedProducts } from '../../features/products/loadLimitedProducts';
-
 
 export interface IProduct {
     id: number;

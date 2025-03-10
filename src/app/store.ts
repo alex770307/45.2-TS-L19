@@ -9,7 +9,8 @@ export const store = configureStore({
   reducer: {
     // здесь могли бы быть ваши редьюсеры
     products: productsSlice.reducer,
-    auth: authSlice.reducer
+    auth: authSlice.reducer,
+    
   },
 })
 
